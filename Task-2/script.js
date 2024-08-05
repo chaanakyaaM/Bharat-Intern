@@ -10,6 +10,7 @@ let weather_realfeel = document.querySelector(".weather_realfeel");
 let weather_humidity = document.querySelector(".weather_humidity");
 let weather_wind = document.querySelector(".weather_wind");
 let weather_pressure = document.querySelector(".weather_pressure");
+
 document.querySelector(".weather_search").addEventListener("submit", (e) => {
   let search = document.querySelector(".weather_searchform");
   e.preventDefault();
